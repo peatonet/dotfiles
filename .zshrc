@@ -100,6 +100,19 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias kind="/home/tmo/Packages/kind/bin/kind"
 
+# k8s alias
+alias k=kubectl
+alias kg="kubectl get"
+alias kgp="kubectl get pods"
+alias kgs="kubectl get services"
+alias kgd="kubectl get deployments"
+alias kge="kubectl get events"
+alias kgpvc="kubectl get pvc"
+alias kgpv="kubectl get pv"
+alias kd="kubectl describe"
+alias kl="kubectl logs -f"
+alias kc="kubectl create -f"
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/tmo/Packages/google-cloud-sdk/path.zsh.inc' ]; then . '/home/tmo/Packages/google-cloud-sdk/path.zsh.inc'; fi
 
